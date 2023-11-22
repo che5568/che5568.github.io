@@ -6,108 +6,7 @@
     <title>Zombie Exodus</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-hEUopFsF2AxPau4GdrF8Oe01frQFv5o2f2KZbDTUVvSAQb1L1MBLMAfbn5ZhFegM" crossorigin="anonymous">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            background-color: #1a1a1a; /* Dark background color */
-            color: #b3b3b3; /* Light gray text color */
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-            background-image: url('https://example.com/dark-background-pattern.png'); /* Dark background pattern */
-        }
-
-        header {
-            text-align: center;
-            padding: 20px;
-            background-color: #333; /* Darker background color for the header */
-            width: 100%;
-            position: fixed;
-            top: 0;
-            z-index: 1000;
-            transition: background-color 0.5s ease;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        header:hover {
-            background-color: #1a1a1a; /* Darker background color on hover */
-        }
-
-        h1 {
-            color: #55cc55; /* Dark green title color */
-            margin-bottom: 0;
-            font-size: 32px;
-            letter-spacing: 2px; /* Add some letter spacing for a modern look */
-        }
-
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #333; /* Darker background color for the navigation */
-            padding: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        nav a {
-            color: #b3b3b3; /* Light gray navigation text color */
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-            transition: color 0.3s ease;
-        }
-
-        nav a:hover {
-            color: #55cc55; /* Green navigation text color on hover */
-        }
-
-        section {
-            text-align: center;
-            padding: 50px;
-            margin: 20px;
-            background-color: rgba(33, 33, 33, 0.9); /* Darker and more transparent background for the sections */
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease;
-        }
-
-        section:hover {
-            transform: scale(1.02); /* Scale up on hover */
-        }
-
-        h2 {
-            color: #55cc55; /* Dark green section title color */
-            margin-bottom: 20px;
-            font-size: 28px;
-        }
-
-        p {
-            font-size: 1.2em;
-            text-align: center;
-            margin-top: 30px;
-            color: #b3b3b3; /* Light gray text color */
-        }
-
-        .icon {
-            font-size: 2em;
-            color: #55cc55; /* Dark green icon color */
-            margin-bottom: 10px;
-        }
-
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #333; /* Darker background color for the footer */
-            width: 100%;
-            position: fixed;
-            bottom: 0;
-            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
-            color: #b3b3b3; /* Light gray text color */
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -122,31 +21,31 @@
         <a href="#contact">Contact</a>
     </nav>
 
-    <section id="about">
+    <section id="about" class="dark-section">
         <h2>About</h2>
         <p>Welcome to Zombie Exodus, an interactive adventure game where you navigate a world overrun by zombies. Will you survive?</p>
     </section>
 
-    <section id="gameplay">
+    <section id="gameplay" class="dark-section">
         <h2>Gameplay</h2>
         <p>Immerse yourself in a thrilling storyline, make critical decisions, and face the consequences. Every choice matters in Zombie Exodus.</p>
     </section>
 
-    <section id="characters">
+    <section id="characters" class="dark-section">
         <h2>Characters</h2>
         <div class="icon"><i class="fas fa-user"></i></div>
         <p>Meet the key characters in Zombie Exodus and discover their unique stories and abilities.</p>
         <!-- Add character information here -->
     </section>
 
-    <section id="download">
+    <section id="download" class="dark-section">
         <h2>Download</h2>
         <div class="icon"><i class="fas fa-download"></i></div>
         <p>Get the latest version of Zombie Exodus and experience the zombie apocalypse like never before.</p>
         <!-- Add download links or information here -->
     </section>
 
-    <p>Created by Che Wills and James Norville</p>
+    <p class="footer-text">Created by Che Wills and James Norville</p>
 
     <footer>
         &copy; 2023 Zombie Exodus
