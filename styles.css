@@ -6,7 +6,6 @@ body, h1, h2, p, ul {
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(to right, #111, #1a1a1a);
     color: #b3b3b3;
     margin: 0;
     padding: 0;
@@ -15,7 +14,9 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-image: url('https://example.com/dark-background-pattern.png');
+    background-image: url('https://th.bing.com/th/id/OIP.zJ-OUNPBlwi3GZY3ZlfGsgAAAA?rs=1&pid=ImgDetMain');
+    background-size: cover;
+    background-position: center;
     line-height: 1.6;
     transition: background-color 0.5s ease;
 }
@@ -35,14 +36,6 @@ header {
 
 header:hover {
     background-color: #1a1a1a;
-}
-
-h1 {
-    color: #55cc55;
-    margin-bottom: 0;
-    font-size: 48px;
-    letter-spacing: 2px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 nav {
@@ -161,3 +154,4 @@ footer {
 footer:hover {
     background-color: #1a1a1a;
 }
+
